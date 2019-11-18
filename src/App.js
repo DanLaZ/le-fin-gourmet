@@ -22,15 +22,23 @@ function App() {
       <Route exact path="/about/eric-ripert" component={aboutOwnerTwo} />
 
       {/*Menu Pages*/}
-      <Route exact path="/menu/" component={menu} />
-      <Route exact path="/test" component={test} />
-
-        {/*Private Dining Pages*/}
-        
-        {/*Reservations Pages*/}
-        {/*Contact Us Pages*/}
-        {/*Gifts Pages*/}
+      <Route exact path="/menus/dining-room/lunch" component={lunch} />
+      <Route exact path="/menus/dining-room/dinner" component={dinner} />
+      <Route exact path="/menus/dining-room/dessert" component={dessert} />
+      <Route exact path="/menus/dining-room/chefs-tasting" component={chefs_tasting} />
+      <Route exact path="/menus/dining-room/le-fin-tasting" component={le_fin_tasting} />
+      <Route exact path="/menus/dining-room/vegetarian-tasting" component={vegetarian_tasting } />
       
+      {/*Private Dining Pages*/}
+      <Route exact path="/menus/lounge/lounge-menu" component={lounge_menu} />
+      <Route exact path="/menus/lounge/city-harvest" component={lounge_menu} />
+      <Route exact path="/menus/lounge/cocktails" component={lounge_menu} />
+      <Route exact path="/menus/lounge/wine-and-spirits" component={lounge_menu} />
+
+      {/*Reservations Pages*/}
+      {/*Contact Us Pages*/}
+      {/*Gifts Pages*/}
+    
     </Router>
   );
 }
