@@ -50,6 +50,13 @@ function App() {
       <Route exact path="/contact-us/careers" component={careers} />
 
       {/*Gifts Pages*/}
+      <Route exact path="/gifts/gift-cards" component={gift_cards} />
+      <Route exact path="/gifts/books/32-yolks" component={yolks_book} />
+      <Route exact path="/gifts/books/my-best-eric-ripert" component={my_best_book} />
+      <Route exact path="/gifts/books/avec-eric" component={avec_eric_book} />
+      <Route exact path="/gifts/books/on-the-line" component={on_the_line_book} />
+      <Route exact path="/gifts/books/a-return-to-cooking" component={return_to_cooking_book} />
+      <Route exact path="/gifts/books/le-bernardin-four-star-simplicity" component={simplicity_book} />
     
     </Router>
   );
