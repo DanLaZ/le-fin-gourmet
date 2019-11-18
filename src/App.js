@@ -41,8 +41,8 @@ function App() {
       <Route exact path="/menus/lounge/wine-and-spirits" component={wine_and_spirits} />
 
       {/*Reservations Pages*/}
-      <Route exact path="/menus/lounge/wine-and-spirits" component={wine_and_spirits} />
-      <Route exact path="/menus/lounge/wine-and-spirits" component={wine_and_spirits} />
+      <Route exact path="/reservations" component={reservations} />
+      <Route exact path="/reservations/hours-and-information" component={hours_information} />
 
       {/*Contact Us Pages*/}
       {/*Gifts Pages*/}
