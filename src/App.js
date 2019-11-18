@@ -45,6 +45,10 @@ function App() {
       <Route exact path="/reservations/hours-and-information" component={hours_information} />
 
       {/*Contact Us Pages*/}
+      <Route exact path="/contact-us" component={contact} />
+      <Route exact path="/contact-us/press" component={press} />
+      <Route exact path="/contact-us/careers" component={careers} />
+
       {/*Gifts Pages*/}
     
     </Router>
